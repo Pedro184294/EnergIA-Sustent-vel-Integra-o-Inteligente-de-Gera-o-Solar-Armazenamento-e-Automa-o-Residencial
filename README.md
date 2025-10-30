@@ -40,11 +40,17 @@ Painéis Solares  →  Inversor Híbrido GoodWe  →  Bateria HV  →  Controlad
                                            Assistente Virtual / Automação
 
 Componentes Principais:
+
 Módulo	Descrição	Tecnologia
+
 Monitoramento IoT  -Captura e simulação de dados (radiação, temperatura, carga da bateria)	 Tecnologia: Python + MQTT
+
 Controle Inteligente	- Algoritmo de decisão com base na eficiência energética	             Tecnologia: Python
+
 Visualização	- Exibição de gráficos de geração e consumo	                                   Tecnologia: Matplotlib / Plotly
+
 Integração GoodWe	- Comunicação com equipamentos (via API simulada)	                         Tecnologia: JSON + API Mock
+
 Automação e Assistente	- Interface para controle por comandos de voz	                       Tecnologia:Python + SpeechRecognition
 
 
@@ -83,21 +89,34 @@ Integração fluida entre sensores, visualização e controle.
 Arquitetura escalável para futuras expansões (ex.: carregador veicular GoodWe).
 
  
- Avaliação Crítica – Sustentabilidade e Inovação
+  Avaliação Crítica – Sustentabilidade e Inovação
+  
 Dimensão	              Benefício
+
 Sustentabilidade	      Redução da dependência de energia da rede e das emissões de carbono.
+
 Inovação	              Uso de algoritmos inteligentes e automação preditiva.
+
 Eficiência              Energética	Otimização do uso de energia solar em tempo real.
+
 Engajamento Social	    Incentivo à adoção de energia renovável e IoT acessível.
 
 A proposta vai além de uma simulação: demonstra como tecnologias GoodWe podem ser potencializadas por software inteligente, agregando eficiência e autonomia ao sistema residencial.
 
 * Tecnologias, Frameworks e Ferramentas Utilizadas:
+  
 Categoria	                     Ferramenta / Tecnologia
+
 Linguagem principal	           Python
+
 Bibliotecas principais	       pandas, matplotlib, random, time, json, speech_recognition
+
 Visualização de dados	         Plotly, Matplotlib
+
 Automação/IA	                 Lógica condicional, decisão baseada em dados
+
 Frameworks IoT	               MQTT (simulado)
+
 Ambiente de desenvolvimento	   VSCode / Google Colab
+
 Integração GoodWe	             API simulada do SEMS Portal
